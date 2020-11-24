@@ -1,0 +1,21 @@
+import java.util.Random;
+
+Public class Main {
+
+    public static void main(String[] args) {
+    Lista lista=new Lista();
+
+    for(int i = 0; i < 1000001; ++i){
+        Randomice R= new Random();
+        int x = R.nextInt(100001);
+        
+
+        lista.insertar(x);
+    }
+
+
+    lista.shellSort();
+    lista.recorrer();
+
+    }
+}
